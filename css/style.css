@@ -1,0 +1,50 @@
+.header{
+    width: 95%;
+    height: 50px;
+    background-color: darkgrey;
+    margin: 5px;
+    padding: 30px;
+}
+.main-section{
+
+}
+ .column{
+  margin: 50px;
+  padding: 50px;
+  float: left ;
+ }
+ ul{
+  list-style-type:none ;
+  position: absolute;
+ }
+ li{
+  float: left;
+  padding-left: 100px;
+  align-items: center;
+  margin-left: 50px;
+ }
+ a{
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+ }
+ a.nostyle:visited{
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+ }
+ table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: darkgray;
+}

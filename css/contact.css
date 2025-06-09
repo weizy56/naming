@@ -1,0 +1,12 @@
+textarea{
+  margin-left: 5%;
+  width: 70%;
+  height: 120px;
+ }
+ form{
+  align-items: center;
+  background-color: darkgrey;
+  width: 500px;
+  margin-left: 30%;
+
+ }
