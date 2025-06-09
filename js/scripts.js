@@ -14,7 +14,11 @@ function getAkanName(){
 	};
 
 	const days=['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
-	
 
-	alert("you were born om"+day+"your name is"+name+"thanks");
+
+    const name=akanNames[gender][dayOfWeek];
+    const day= days[dayOfWeek];
+
+
+     result.textContent='you were born on ${day}.your akan name is $ {name}'
 }
