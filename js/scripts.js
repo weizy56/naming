@@ -1,12 +1,10 @@
 function getAkanName(){
-	const dob=
-	document.getElementById('dob').value
-	const gender=
-	document.getElementById('gender').value
-	const result=document.getElementById('result');
+	const dob = document.getElementById('dob').value;
+	const gender = document.getElementById('gender').value;
+	const result = document.getElementById('result');
 
 	const date =new Date(dob);
-	const dayOfWeek=date.getDay();
+	const dayOfWeek=date.getDay();//0 (sunday) to 6 (saturday)
 
 	const akanNames={
 		male:['kwasi','kwado','kwabena','kwako','yaw','kofi','kwame'],
@@ -20,5 +18,5 @@ function getAkanName(){
     const day= days[dayOfWeek];
 
 
-     result.textContent='you were born on ${day}.your akan name is $ {name}'
+    alert("your name is " +name+ " your day of birth " +day+ " thanks ");
 }
